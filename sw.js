@@ -1,6 +1,6 @@
 // 獨立快取前綴，確保不與其他 App 衝突
 const CACHE_PREFIX = 'golfpro-cache-';
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 
 const urlsToCache = [
