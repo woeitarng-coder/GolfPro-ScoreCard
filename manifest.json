@@ -1,6 +1,6 @@
 {
   "name": "GolfPro 成績卡",
-  "short_name": "GolfPro",
+  "short_name": "GolfPro成績卡",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#000000",
