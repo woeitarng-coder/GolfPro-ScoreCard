@@ -2,10 +2,10 @@
   "name": "Golf記分卡",
   "short_name": "Golf記分卡",
   "start_url": "./index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#4CAF50",
-  "orientation": "portrait",
+  "theme_color": "#000000",
   "icons": [
     {
       "src": "icon.png",
@@ -15,7 +15,8 @@
     {
       "src": "icon.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
