@@ -3,19 +3,21 @@
   "short_name": "Golf記分卡",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000",
+  "background_color": "#000000",  // 👈 確保這裡是黑色 (#000000)
+  "theme_color": "#4CAF50",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "icon.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable" // 👈 加上這個設定，讓 Android 系統可以更好地處理圓角
     },
     {
       "src": "icon.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any maskable" // 👈 加上這個設定
     }
   ]
 }
